@@ -1,0 +1,14 @@
+Prochain exercice, Maintenant que l'on sait aller chercher un élément dans la page : une classique vérification de formulaire.
+ Le principe de cet exercice est de créer un formulaire en HTML et vérifier celui avant de l'envoyer au serveur (étape qui sera réalisée plus tard en PHP).
+L'application doit comporter les champ suivant et la vérification doit porter sur les éléments spécifiés entre parenthèse.
+ La vérification doit s'effectuer au moins lorsque l'utilisateur change de champs.
+
+Un champ nom (ne doit pas être vide)
+Un champ prénom (ne doit pas être vide)
+Un champ pseudo (ne doit pas être vide)
+Un champ e-mail (qui doit être de la forme d'une adresse e-mail valide, c'est à dire avec un @ et une extension à la fin)
+Un champ message (ne doit pas être vide)
+Une case à cocher (doit être cochée)
+Le bouton d'envoi
+
+Si le champ est OK mettre une bordure verte autour, sinon mettre une bordure rouge et afficher un message en rapport avec l'erreur

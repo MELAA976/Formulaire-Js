@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 20px;
+}
+
+form{
+    background-color: #18534F;
+    padding: 20px;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 9px;
+    border-radius: 10px;
+    
+}
+
+.elemForm{
+    width: 50%;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+
+.message{
+    margin-top: 40px;
+    width: 50%!important;
+    height: 100%!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message > button{
+    margin: 20px;
+}
+
+.valid{
+    margin: 20px;
+}
