@@ -8,7 +8,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulaire</title>
@@ -16,42 +16,56 @@
   <body>
     <h1>Ma Formulaire</h1>
     <form action="" method="get">
-      
-    <div class="elemForm">
+      <div class="elemForm">
         <label for="name" class="form-label">NOM:</label>
-        <input type="text" id="name" name="name" class="form-control"  />
+        <input type="text" id="name" name="name" class="form-control" />
+        <div class="msgRtr form-text text-danger fw-bold"></div>
       </div>
 
       <div class="elemForm">
         <label for="firstname" class="form-label">PRENOM:</label>
-        <input type="text" id="firstname" name="firstname" class="form-control"/>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          class="form-control"
+        />
+        <div class="msgRtr form-text text-danger fw-bold"></div>
       </div>
 
       <div class="elemForm">
         <label for="pseudo" class="form-label">PSEUDO:</label>
-        <input type="text" id="pseudo" name="pseudo" class="form-control"/>
+        <input type="text" id="pseudo" name="pseudo" class="form-control" />
+        <div class="msgRtr form-text text-danger fw-bold"></div>
       </div>
 
       <div class="elemForm">
         <label for="mail" class="form-label">E-MAIL:</label>
-        <input type="text" id="mail" name="mail" class="form-control"/>
+        <input type="text" id="mail" name="mail" class="form-control" />
+        <div class="msgRtr form-text text-danger fw-bold"></div>
       </div>
 
       <div class="elemForm message">
-        <textarea id="textMessage" name="textMessage" class="form-control" placeholder="Message">
+        <textarea
+          id="textMessage"
+          name="textMessage"
+          class="form-control"
+          placeholder="Message"
+        >
         </textarea>
-
-        <div class="valid">
-            <input type="checkbox" id="acceptCondi">
-            <label for="acceptCondi" class="text-light">Accepter Les Conditions</label>
-        </div>
-
-        <button type="button" class="btn btn-outline-info" id="btnEnvo">Envoyer</button>
-
-
-        
+        <div class="msgRtr form-text text-danger fw-bold"></div>
       </div>
 
+      <div class="valid">
+        <div class="msgRtr form-text text-danger fw-bold"></div>
+        <input type="checkbox" id="acceptCondi" />
+        <label for="acceptCondi" class="text-light"
+          >Accepter Les Conditions</label
+        >
+      </div>
+      <button type="button" class="btn btn-outline-info" id="btnEnvo">
+        Envoyer
+      </button>
     </form>
 
     <script src="app.js"></script>

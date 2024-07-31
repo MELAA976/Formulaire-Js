@@ -20,9 +20,7 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 4px 4px 9px;
-    border-radius: 10px;
-    
+    box-shadow: 4px 4px 9px;    
 }
 
 .elemForm{
